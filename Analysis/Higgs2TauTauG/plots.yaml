@@ -1,0 +1,510 @@
+files:
+  DYJTLL: DYJTLL50_passop_Xsecweight.pkl.gz
+  H2TTG: H2TTTG_passop_Xsecweight.pkl.gz
+  ZGTLL: ZGToLLG01J_passop_Xsecweight.pkl.gz
+normal_PhotonPt:
+  '1':
+    PhotonPt:
+      axis: PhotonPt
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    PhotonPt:
+      axis: PhotonPt
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    PhotonPt:
+      axis: PhotonPt
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_Photoneta:
+  '1':
+    Photoneta:
+      axis: Photoneta
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    Photoneta:
+      axis: Photoneta
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    Photoneta:
+      axis: Photoneta
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_Photonphi:
+  '1':
+    Photonphi:
+      axis: Photonphi
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    Photonphi:
+      axis: Photonphi
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    Photonphi:
+      axis: Photonphi
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_TauPt_leading:
+  '1':
+    TauPt_leading:
+      axis: TauPt_leading
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    TauPt_leading:
+      axis: TauPt_leading
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    TauPt_leading:
+      axis: TauPt_leading
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_TauPt_subleading:
+  '1':
+    TauPt_subleading:
+      axis: TauPt_subleading
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    TauPt_subleading:
+      axis: TauPt_subleading
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    TauPt_subleading:
+      axis: TauPt_subleading
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_Taueta_leading:
+  '1':
+    Taueta_leading:
+      axis: Taueta_leading
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    Taueta_leading:
+      axis: Taueta_leading
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    Taueta_leading:
+      axis: Taueta_leading
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_Taueta_subleading:
+  '1':
+    Taueta_subleading:
+      axis: Taueta_subleading
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    Taueta_subleading:
+      axis: Taueta_subleading
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    Taueta_subleading:
+      axis: Taueta_subleading
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_Tauphi_leading:
+  '1':
+    Tauphi_leading:
+      axis: Tauphi_leading
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    Tauphi_leading:
+      axis: Tauphi_leading
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    Tauphi_leading:
+      axis: Tauphi_leading
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_Tauphi_subleading:
+  '1':
+    Tauphi_subleading:
+      axis: Tauphi_subleading
+      file: H2TTG
+      scale: -1
+      stack: false
+    args:
+      color: red
+      label: H2TTG
+  '2':
+    Tauphi_subleading:
+      axis: Tauphi_subleading
+      file: ZGTLL
+      scale: -1
+      stack: false
+    args:
+      color: blue
+      label: ZGTLL
+  '3':
+    Tauphi_subleading:
+      axis: Tauphi_subleading
+      file: DYJTLL
+      scale: -1
+      stack: false
+    args:
+      color: green
+      label: DYJTLL
+normal_dphitt:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    dphitt:
+      axis: dphitt
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    dphitt:
+      axis: dphitt
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    dphitt:
+      axis: dphitt
+      file: DYJTLL
+      scale: -1
+      stack: false
+normal_drgt_V1:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    drgt_V1:
+      axis: drgt_V1
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    drgt_V1:
+      axis: drgt_V1
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    drgt_V1:
+      axis: drgt_V1
+      file: DYJTLL
+      scale: -1
+      stack: false
+normal_drgt_V2:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    drgt_V2:
+      axis: drgt_V2
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    drgt_V2:
+      axis: drgt_V2
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    drgt_V2:
+      axis: drgt_V2
+      file: DYJTLL
+      scale: -1
+      stack: false
+normal_drgt_V3:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    drgt_V3:
+      axis: drgt_V3
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    drgt_V3:
+      axis: drgt_V3
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    drgt_V3:
+      axis: drgt_V3
+      file: DYJTLL
+      scale: -1
+      stack: false
+normal_drtt_V1:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    drtt_V1:
+      axis: drtt_V1
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    drtt_V1:
+      axis: drtt_V1
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    drtt_V1:
+      axis: drtt_V1
+      file: DYJTLL
+      scale: -1
+      stack: false
+normal_drtt_V2:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    drtt_V2:
+      axis: drtt_V2
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    drtt_V2:
+      axis: drtt_V2
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    drtt_V2:
+      axis: drtt_V2
+      file: DYJTLL
+      scale: -1
+      stack: false
+normal_drtt_V3:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    drtt_V3:
+      axis: drtt_V3
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    drtt_V3:
+      axis: drtt_V3
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    drtt_V3:
+      axis: drtt_V3
+      file: DYJTLL
+      scale: -1
+      stack: false
+normal_ttgobjectmass:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    ttgobjectmass:
+      axis: ttgobjectmass
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    ttgobjectmass:
+      axis: ttgobjectmass
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    ttgobjectmass:
+      axis: ttgobjectmass
+      file: DYJTLL
+      scale: -1
+      stack: false
+normal_ttobjectmass:
+  '1':
+    args:
+      color: red
+      label: H2TTG
+    ttobjectmass:
+      axis: ttobjectmass
+      file: H2TTG
+      scale: -1
+      stack: false
+  '2':
+    args:
+      color: blue
+      label: ZGTLL
+    ttobjectmass:
+      axis: ttobjectmass
+      file: ZGTLL
+      scale: -1
+      stack: false
+  '3':
+    args:
+      color: green
+      label: DYJTLL
+    ttobjectmass:
+      axis: ttobjectmass
+      file: DYJTLL
+      scale: -1
+      stack: false
+year: 2016
+

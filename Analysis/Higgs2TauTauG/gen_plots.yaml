@@ -1,8 +1,8 @@
 2016:
     ######## format samplename: filename,color,stack(nostack),scale
-    H2TTG: H2TTTG_passop_Xsecweight.pkl.gz.pkl.gz,red,nostack,-1
-    ZGTLL: ZGToLLG01J_passop_Xsecweight.pkl.gz.pkl.gz,blue,nostack,-1
-    DYJTLL: DYJTLL50_passop_Xsecweight.pkl.gz.pkl.gz,green,nostack,-1
+    H2TTG: H2TTTG_passoptions=Xsecweight.pkl.gz,red,nostack,-1
+    ZGTLL: ZGToLLG01J_passoptions=Xsecweight.pkl.gz,blue,nostack,-1
+    DYJTLL: DYJTLL50_passoptions=Xsecweight.pkl.gz,green,nostack,-1
 plots:
     ######## format plottype_ref: axisname
     normal_TauPt_leading: TauPt_leading
@@ -22,4 +22,3 @@ plots:
     normal_PhotonPt: PhotonPt
     normal_Photoneta: Photoneta
     normal_Photonphi: Photonphi
-    normal_dphitt: dphitt

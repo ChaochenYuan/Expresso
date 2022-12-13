@@ -37,8 +37,8 @@ def preselection(pars,events,selections):
 
     if histAxisName=="H2TTTG":
         selections.add("should be ttg events at gen level", ak.num(events.photonswithcut)==1)
-    if  histAxisName=="H2TTT":
-        selections.add("should be ttg events at gen level", ak.num(events.photonswithcut)==0)
+    if histAxisName=="H2TTT":
+        selections.add("should not be ttg events at gen level", ak.num(events.photonswithcut)==0)
 
     #selections.add("delta R between electron and tau should larger than 0.4", events.drlt > 0.4)
     #selections.add("charge shoule be oppsite for electron and tau", events.chargelt == -1)

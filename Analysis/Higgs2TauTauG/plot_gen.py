@@ -1,0 +1,26 @@
+from modules.ExpressoPlotter import ExpressoPlotter,normalplot
+
+plotter=ExpressoPlotter("2016")
+plotter.histolocation('Signal/Analysis/Higgs2TauTauG/output/analysis_S/')
+plotter.savelocation('Analysis/Higgs2TauTauG/gen_level_plots/')
+plotter.settings('modules/plotsettings.yaml')
+
+plotter.addfile('H2TTG','H2TTTG_passop_Xsecweight.pkl.gz','red','nostack',-1)
+plotter.addfile('DYJTLL','DYJTLL50_passop_Xsecweight.pkl.gz','blue','stack',-1)
+plotter.addfile('ZGTLLG','ZGToLLG01J_passop_Xsecweight.pkl.gz','green','stack',-1)
+plotter.addfile('ZGTLLG','H2TTTGNP_passop_1.pkl.gz','orange','stack',-1)
+
+p=normalplot(plotter,filename="TauPt_leading",hi='TauPt_leading',axis='TauPt_leading')
+p=normalplot(plotter,filename="Taueta_leading",hi='Taueta_leading',axis='Taueta_leading')
+p=normalplot(plotter,filename="Tauphi_leading",hi='Tauphi_leading',axis='Tauphi_leading')
+p=normalplot(plotter,filename="TauPt_subleading",hi='TauPt_subleading',axis='TauPt_subleading')
+p=normalplot(plotter,filename="Taueta_subleading",hi='Taueta_subleading',axis='Taueta_subleading')
+p=normalplot(plotter,filename="Tauphi_subleading",hi='Tauphi_subleading',axis='Tauphi_subleading')
+p=normalplot(plotter,filename="drgt_V1",hi='drgt_V1',axis='drgt_V1')
+p=normalplot(plotter,filename="drtt_V1",hi='drtt_V1',axis='drtt_V1')
+p=normalplot(plotter,filename="ttobjectmass",hi='ttobjectmass',axis='ttobjectmass')
+p=normalplot(plotter,filename="ttgobjectmass",hi='ttgobjectmass',axis='ttgobjectmass')
+p=normalplot(plotter,filename="PhotonPt",hi='PhotonPt',axis='PhotonPt')
+p=normalplot(plotter,filename="Photoneta",hi='Photoneta',axis='Photoneta')
+p=normalplot(plotter,filename="Photonphi",hi='Photonphi',axis='Photonphi')
+p=normalplot(plotter,filename="dphitt",hi='dphitt',axis='dphitt')

@@ -1,0 +1,38 @@
+2016:
+    ######## format samplename: filename,color,stack(nostack),scale
+    H2TTG: H2TTTG_passop_Xsecweight_anap_tight_tau_tight_l_tight_pho.pkl.gz.pkl.gz,red,nostack,-1
+    DYJTLL50: DYJTLL50_passop_Xsecweight_anap_tight_tau_tight_l_tight_pho.pkl.gz.pkl.gz,blue,nostack,-1
+    ZGTLL: ZGToLLG01J_passop_Xsecweight_anap_tight_tau_tight_l_tight_pho.pkl.gz.pkl.gz,green,nostack,-1
+    WJTLNu: WJetsToLNu_passop_Xsecweight_anap_tight_tau_tight_l_tight_pho.pkl.gz.pkl.gz,orange,nostack,-1
+
+
+plots:
+    ######## format plottype_ref: axisname
+    normal_ElectronPt: ElectronPt
+    normal_Electroneta: Electroneta
+    normal_Electronphi: Electronphi
+    normal_MuonPt: MuonPt
+    normal_Muoneta: Muoneta
+    normal_Muonphi: Muonphi
+    normal_TauPt_eh: TauPt_eh
+    normal_Taueta_eh: Taueta_eh
+    normal_Tauphi_eh: Tauphi_eh
+    normal_TauPt_uh: TauPt_uh
+    normal_Taueta_uh: Taueta_uh
+    normal_Tauphi_uh: Tauphi_uh
+    normal_PhotonPt_eh: PhotonPt_eh
+    normal_Photoneta_eh: Photoneta_eh
+    normal_Photonphi_eh: Photonphi_eh
+    normal_PhotonPt_uh: PhotonPt_uh
+    normal_Photoneta_uh: Photoneta_uh
+    normal_Photonphi_uh: Photonphi_uh
+    normal_drlt_uh: drlt_uh
+    normal_drlg_uh: drlg_uh
+    normal_drgt_uh: drgt_uh
+    normal_drlt_eh: drlt_eh
+    normal_drlg_eh: drlg_eh
+    normal_drgt_eh: drgt_eh
+    normal_invarmass_eh: invarmass_eh
+    normal_invarmass_uh: invarmass_uh
+    normal_MET: MET
+

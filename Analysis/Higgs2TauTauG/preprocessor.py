@@ -3,11 +3,6 @@ def preprocess(pars,events,AttachSF=True):
     import awkward as ak    
     import modules.ExpressoTools as ET
     dataset,isData,histAxisName,year,xsec,sow=pars['dataset'],pars['isData'],pars['histAxisName'],pars['year'],pars['xsec'],pars['sow']
-    ###################################
-
-    ###########################################################-------------------------------------------------------------------------------
-    #### Start below ######################
-    
     
     import numpy as np
     import modules.cut as cut
@@ -33,19 +28,7 @@ def preprocess(pars,events,AttachSF=True):
     events["Photon","istight"]=cut.istightPhoton(events.Photon.pt, events.Photon.eta, events.Photon.cutBased, 5)
     events["Photon","ismed"]=cut.ismedPhoton(events.Photon.pt, events.Photon.eta, events.Photon.cutBased, 5)
     events["Photon","isloose"]=cut.isloosePhoton(events.Photon.pt, events.Photon.eta, events.Photon.cutBased, 5)
-    ######################################
-    #events=events[(ak.num(events.Tau)>=1) & (ak.num(events.Photon)>=1) & ak.num(events.l)>=1]
-    ######################################
-    #events["drlg"]=events.Photon.delta_r(events.l[:,0])
-    #events["ltobject"]= events.Tau + events.l[:,0]
-    #events["ltgobject"]=events.Tau + events.l[:,0] + events.Photon
-    #events["drlt"]=events.l[:,0].delta_r(events.Tau)
-    #events["drgt"]=events.Photon.delta_r(events.Tau)
-    #events["dphilt"]=events.l[:,0].delta_phi(events.Tau)
-    #events["dphigt"]=events.Photon.delta_phi(events.Tau)
-    #events["dphilg"]=events.l[:,0].delta_phi(events.Photon)
-    #events["chargelt"]=events.l[:,0].charge*events.Tau.charge
-    #events["invarmass"]=events.ltobject.mass
+
     events["NJets"]=ak.num(events.Jet)
 
     

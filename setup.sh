@@ -18,7 +18,7 @@ fi
 
 chmod +x plot+.py
 chmod +x expresso.py
-pip install -e .
+#pip install -e .
 chmod +x modules/createJSON.py
 
 
